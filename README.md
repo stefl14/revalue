@@ -28,6 +28,8 @@ This repository contains a machine learning project designed for multispectral i
 
 Before running the training, you may need to adjust the configurations according to your dataset and training requirements. Configuration options are available in `config.py`. Review and modify them as necessary to fit your project's needs.
 
+Note, you will also need to create a data directory with eurosat data i.e. data/EuroSAT_MS_Samples
+
 ### Training the Model
 
 To train the model, use the CLI provided in `trainer.py`. The CLI supports various options for training customization, such as setting the number of epochs, batch size, and more.
